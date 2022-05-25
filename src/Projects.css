@@ -1,0 +1,78 @@
+.projects {
+    min-height: 110vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.projects__heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 0.5rem;
+    color: black;
+    padding: 2%;
+    padding-top: 5%;
+    background-color: #F2E9E4;    
+    text-align: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    border-top: 0;
+    border-left: 0;
+}
+
+
+.main__proj__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 50px;
+    /* padding: 2rem; */
+    /* overflow: scroll; */
+}
+
+.project__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.project__image {
+    width: 20%;
+    height: auto;
+}
+
+.project__container__right {
+    width: 50%;
+    text-align: justify;
+}
+
+.project__heading {
+    color: blue;
+}
+
+.project__description {
+    color: beige;
+    font-size: 1rem;
+}
+
+.project__heading:hover {
+    filter:invert();
+}
+
+.project__description:hover {
+    color: green;
+}
+
+@media (max-width:800px) {
+    .project__description {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Smooch&display=swap');
+
+.home {
+    height: 110vh;
+    width: 100%; 
+    /* background-image: url('backgroundimage.jpg'); 
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__welcome {
+    text-align: center;
+    color: black;
+}
+
+.home__heading {
+    font-family: 'Smooch', cursive;
+    font-size: 2rem;
+}
+
+.home__text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.home__button {
+    text-decoration: none;
+    outline: none;
+    margin: 5px;
+}
+
+.home__button:hover {
+    filter: invert(10%);
+}
+
+.home__heading:hover, .home__text:hover {
+    filter: invert(25%);
+}
+
+.animate__name {
+    color:blue;
+}
+
+.animate__name:hover {
+    color: green;
+}
+
+@media (max-width: 600px) {
+    .home__heading {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,40 @@
+.skills {
+    min-height: 110vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2E9E4;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.skills__heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 0.5rem;
+    color: white;
+    padding: 2%;
+    padding-top: 5%;
+    background-color: #22223B;    
+    text-align: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    border-top: 0;
+    border-left: 0;
+}
+
+.skills__info {
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills__content {
+    width: 100%;
+}
+
+.cards__list {
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
