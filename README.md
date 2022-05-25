@@ -1,3 +1,5 @@
+My portfolio website made using HTML, CSS, React.js and Material UI. The icons are imported from Material UI. The main structure of the web page is done using CSS Flexbox. React is used for creating many different components such as Home, Skills, Projects, Contact etc. The website is deployed on Heroku and is hosted at https://mudassirportfoliowebsite.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
