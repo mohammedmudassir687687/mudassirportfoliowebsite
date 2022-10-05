@@ -68,6 +68,12 @@
     margin: 5px;
 }
 
+.project__link:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
 .project__heading {
     color: yellow;
 }
