@@ -1,7 +1,7 @@
 import React from 'react'
 import './Experience.css'
 
-const Experience = ({image, text, title}) => {
+const Experience = ({image, text, title, path}) => {
   return (
     <div className='experience'>
         <div className='experience__left'>
@@ -9,7 +9,7 @@ const Experience = ({image, text, title}) => {
             <p className='experience__text'>{text}</p>
         </div>
         <div className='experience__right'>
-            <a target='_blank' href='https://www.newhaven.edu/'><img className='experience__photo' src={image} alt='university of new haven' /></a>
+            <a target='_blank' href={path}><img className='experience__photo' src={image} alt='university of new haven' /></a>
         </div>
     </div>
   )

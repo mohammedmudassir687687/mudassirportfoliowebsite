@@ -16,6 +16,10 @@ const Skills = () => {
                 paragraph=' MongoDB, Express, React, Node, Mongoose, Firebase, Firestore, REST API, Postman,MongoDB Compass, JWT OAuth, Bcrypt, HTML, CSS, CSS Flexbox, Git.'
                 />
                 <Card 
+                title='Blockchain'
+                paragraph='Smart Contracts, DApps, Solidity, Ethereum, Metamask, Alchemy'
+                />
+                <Card 
                 title='Libraries and Frameworks'
                 paragraph='Bootstrap, Material-UI, JQuery, Next.js'
                 />

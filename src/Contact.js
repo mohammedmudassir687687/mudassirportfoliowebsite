@@ -19,11 +19,11 @@ const Contact = () => {
             <h1>CONTACT</h1>
         </div>
         <div className='social__links'>
-            <a className='icon' href='https://www.instagram.com/mohammedmudassir__/' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><InstagramIcon fontSize='small' /></a>
+            <a className='icon' href='https://www.instagram.com/mohammedmudassir__/' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><InstagramIcon fontSize='large' /></a>
             
-            <a className='icon' href='https://www.linkedin.com/in/mohammed-mudassir-bb604a182/' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><LinkedInIcon fontSize='small' /></a>
+            <a className='icon' href='https://www.linkedin.com/in/mohammed-mudassir-bb604a182/' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><LinkedInIcon fontSize='large' /></a>
             
-            <a className='icon' href='https://github.com/mohammedmudassir687687' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><GitHubIcon fontSize='small' /></a>
+            <a className='icon' href='https://github.com/mohammedmudassir687687' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><GitHubIcon fontSize='large' /></a>
         </div>
 
     
@@ -33,9 +33,9 @@ const Contact = () => {
             
         </div>
         <div className='contact__socials'>
-              <small><PhoneIcon fontSize='smaller'/> +1 (475) 227 7451</small>
-              <small><MailOutlineIcon fontSize='smaller'/> mohammedmudassir687687@gmail.com</small>
-              <small><LocationOnIcon fontSize='smaller'/> West Haven, Connecticut, United States</small>
+              <span className='small'><PhoneIcon fontSize='smaller'/> +1 (475) 227 7451</span>
+              <span className='small'><MailOutlineIcon fontSize='smaller'/> mohammedmudassir687687@gmail.com</span>
+              <span className='small'><LocationOnIcon fontSize='smaller'/> West Haven, Connecticut, United States</span>
         </div>
     </div>
   )

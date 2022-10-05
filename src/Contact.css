@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #403d39;
+    background-color: white;
     text-align: center;
     justify-content: space-between;
 }
@@ -28,13 +28,21 @@
     width: 100%;
     color: white;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-evenly;
     margin-bottom: 50px;
   }
 
-  .contact__socials > small:hover {
-    filter:invert()
+  .contact__socials > .small {
+    color: white;
+    background-color: black;
+    padding: 1%;
+    margin: 2px;
+    border-radius: 5px;
+  }
+
+  .contact__socials > .small:hover {
+    filter:invert();
   }
 
   .contact__main {
@@ -42,7 +50,7 @@
   }
 
   .icon {
-    color: white;
+    color: black;
     margin: 10px;
 }
 
@@ -50,8 +58,14 @@
     color: blue;
 }
 
-@media (max-width: 500px) {
-    .contact__socials > small {
+@media (max-width: 880px) {
+    .contact__socials > .small {
         font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .contact__socials > .small {
+        font-size: 0.55rem;
     }
 }

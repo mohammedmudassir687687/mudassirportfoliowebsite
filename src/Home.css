@@ -3,8 +3,6 @@
 .home {
     height: 110vh;
     width: 100%; 
-    /* background-image: url('backgroundimage.jpg'); 
-    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,14 +13,24 @@
     color: black;
 }
 
+.home__image {
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
 .home__heading {
     font-family: 'Smooch', cursive;
     font-size: 2rem;
 }
 
+.home__button-bold {
+    font-weight: bolder;
+}
+
 .home__text {
     font-family: 'Dancing Script', cursive;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
@@ -42,6 +50,7 @@
 
 .animate__name {
     color:blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .animate__name:hover {

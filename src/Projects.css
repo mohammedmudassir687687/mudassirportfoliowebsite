@@ -54,8 +54,22 @@
     text-align: justify;
 }
 
+.project__buttons {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.project__link {
+    color: white;
+    background-color: blue;
+    padding: 1.5%;
+    text-decoration: none;
+    margin: 5px;
+}
+
 .project__heading {
-    color: blue;
+    color: yellow;
 }
 
 .project__description {
