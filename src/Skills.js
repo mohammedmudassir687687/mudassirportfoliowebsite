@@ -12,8 +12,12 @@ const Skills = () => {
             <h3 className='skills__info'>Click on the cards for more info!</h3>
             <div className='cards__list'>
                 <Card 
+                title='Programming Languages'
+                paragraph='C, C++, Python, Java, JavaScript, TypeScript, Solidity'
+                />
+                <Card 
                 title='Web Development'
-                paragraph=' MongoDB, Express, React, Node, Mongoose, Firebase, Firestore, REST API, Postman,MongoDB Compass, JWT OAuth, Bcrypt, HTML, CSS, CSS Flexbox, Git.'
+                paragraph='MongoDB, Express, React, Node, Mongoose, Firebase, Firestore, REST API, Postman,MongoDB Compass, JWT OAuth, Bcrypt, HTML, CSS, CSS Flexbox, Git.'
                 />
                 <Card 
                 title='Blockchain'
